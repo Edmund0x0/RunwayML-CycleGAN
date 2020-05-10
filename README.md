@@ -7,9 +7,8 @@ and download your "latest_net_G.pth" as "checkpoints/pretrained/latest_net_G.pth
 * test with runwayML local dev server
 * test with runwayML "from github"
 
-<img src='imgs/horse2zebra.gif' align="right" width=384>
 
-<br><br><br>
+
 
 # CycleGAN and pix2pix in PyTorch
 
