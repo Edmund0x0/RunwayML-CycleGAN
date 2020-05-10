@@ -33,15 +33,14 @@ from data.base_dataset import get_transform
 from models import create_model
 
 
-@runway.setup(options={'generator_checkpoint': runway.file(description='Checkpoint file for the generator',
-                                                           extension='.pth')})
+@runway.setup(options={})
 def setup(opts):
-    generator_checkpoint_path = opts['generator_checkpoint']
+    # generator_checkpoint_path = opts['generator_checkpoint']
     try:
         os.makedirs('checkpoints/pretrained/')
     except OSError:
         pass
-    shutil.copy(generator_checkpoint_path, 'checkpoints/pretrained/latest_net_G.pth')
+    # shutil.copy(generator_checkpoint_path, 'checkpoints/pretrained/latest_net_G.pth')
 
     opt = TestOptions(args=['--dataroot', '',
                             '--name', 'pretrained',
