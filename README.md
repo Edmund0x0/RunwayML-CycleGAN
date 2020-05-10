@@ -11,10 +11,6 @@ and download your "latest_net_G.pth" as "checkpoints/pretrained/latest_net_G.pth
 
 # CycleGAN and pix2pix in PyTorch
 
-<br><br><br>
-<img src='imgs/horse2zebra.gif' align="right" width=384>
-<br><br><br>
-
 We provide PyTorch implementations for both unpaired and paired image-to-image translation.
 
 The code was written by [Jun-Yan Zhu](https://github.com/junyanz) and [Taesung Park](https://github.com/taesung), and supported by [Tongzhou Wang](https://ssnl.github.io/).
