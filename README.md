@@ -2,7 +2,7 @@
 
 train with Colab notebook [here](https://github.com/aaaven/aiarts2020/blob/master/week12-tutorial/Test_CycleGAN.ipynb)
 
-<a href=\"https://colab.research.google.com/github/aaaven/aiarts2020/blob/master/week12-tutorial/Test_CycleGAN.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
+![https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/github/aaaven/aiarts2020/blob/master/week12-tutorial/Test_CycleGAN.ipynb)
 
 and download your "latest_net_G.pth" as "checkpoints/pretrained/latest_net_G.pth".
 
